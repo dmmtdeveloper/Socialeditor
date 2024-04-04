@@ -1,23 +1,10 @@
-# SocialEditor
-En esta pequeña practica aprendi:
+# 👋 SocialEditor
+En esta pequeña practica pude implementar y aprender:
 - Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo.
 - Evitar errores de principiante para que las personas que tienen que interactuar con mi código lo tengan fácil.
 - Implementar diseño web responsivo (RWD) para dispositivos móviles, tabletas, computadoras portátiles y de escritorio con consultas de medios (@media).
 
-<a href= "https://www.linkedin.com/in/dmmtapia/">
-<svg  
-xmlns="http://www.w3.org/2000/svg"  
-width="24"  
-height="24"  
-viewBox="0 0 24 24"  
-fill="none"  
-stroke="currentColor"  
-stroke-width="2"  
-stroke-linecap="round"  
-stroke-linejoin="round"  
-class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
-
-## </a>
+## 
 
 ### 🧰 Lenguajes
 
@@ -25,4 +12,10 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path s
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <br />
 
-#
+## 
+
+### 🧰 LinkedIn
+   <a href="https://www.linkedin.com/in/dmmtapia/" target="blank">
+    <img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Wb7G67EcR44qT3KQLlLzI1Fna_L2lPXfTI1sx8_z2w&s" alt="LinkedIndmmtapia" height="28px" width="28px" />
+  </a>
+ 
