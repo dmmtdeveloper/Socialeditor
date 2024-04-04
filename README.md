@@ -1,5 +1,5 @@
 # 👋 SocialEditor
-Editor de fotos, practica donde perfecciono y práctico diseño UI, utilizando HTML Y CSS puro.
+Editor de fotos, practica donde perfecciono el diseño UI, utilizando HTML Y CSS puro.
 
 <a href= "https://www.linkedin.com/in/dmmtapia/">
 <svg  
@@ -16,10 +16,10 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path s
 
 ## </a>
 
-<br />
 
 ### 🧰 Lenguajes 
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<br />
 
 #
