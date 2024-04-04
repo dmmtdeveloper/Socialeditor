@@ -1,8 +1,8 @@
 # SocialEditor
 En esta pequeña practica aprendi:
-- Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
-- Evita cientos de errores de principiante para que las personas que tienen que interactuar con tu código lo tengan fácil
-- Implementar diseño web responsivo (RWD) para dispositivos móviles, tabletas, computadoras portátiles y de escritorio con consultas de medios (@media)
+- Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo.
+- Evitar errores de principiante para que las personas que tienen que interactuar con mi código lo tengan fácil.
+- Implementar diseño web responsivo (RWD) para dispositivos móviles, tabletas, computadoras portátiles y de escritorio con consultas de medios (@media).
 
 <a href= "https://www.linkedin.com/in/dmmtapia/">
 <svg  
