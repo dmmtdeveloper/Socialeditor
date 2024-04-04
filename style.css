@@ -13,7 +13,9 @@ button {
   outline: none; /* Asegurarse de que tengamos un indicador de focus state*/
 }
 
-/*----> KEYFRAMES <-----*/
+/*------------------------> KEYFRAMES <-----------------------*/
+
+/*-------------------------> header <-----------------------*/
 @keyframes fade-in-from-top {
   0% {
     opacity: 0;
@@ -26,6 +28,7 @@ button {
   }
 }
 
+/*-------------------------> sidebar <-----------------------*/
 @keyframes fade-in-from-left {
   0% {
     opacity: 0;
@@ -38,6 +41,7 @@ button {
   }
 }
 
+/*-------------------------> panel__img and canvas__circule <-----------------------*/
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -47,6 +51,34 @@ button {
     opacity: 1;
   }
 }
+
+/*-------------------------> tools <-----------------------*/
+@keyframes fade-in-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/*-------------------------> canvas__fg-img <-----------------------*/
+@keyframes make-smaller {
+  0% {
+    height: 100%;
+    width: 100%;
+  }
+  
+  100% {
+    height: 75%;
+    width: 78%;
+  }
+}
+
+
 
 /*----> BASE STYLES <----*/
 .app {
@@ -221,41 +253,41 @@ button {
   gap: 8px;
 }
 
-.panel__img:nth-child(2){
-    animation: fade-in 1s 0.1s backwards;
+.panel__img:nth-child(2) {
+  animation: fade-in 1s 0.1s backwards;
 }
-.panel__img:nth-child(3){
-    animation: fade-in 1s 0.2s backwards;
+.panel__img:nth-child(3) {
+  animation: fade-in 1s 0.2s backwards;
 }
-.panel__img:nth-child(4){
-    animation: fade-in 1s 0.3s backwards;
+.panel__img:nth-child(4) {
+  animation: fade-in 1s 0.3s backwards;
 }
-.panel__img:nth-child(5){
-    animation: fade-in 1s 0.4s backwards;
+.panel__img:nth-child(5) {
+  animation: fade-in 1s 0.4s backwards;
 }
 
 .panel__img {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 7px;
-    transition: all 0.2s;
-    cursor: pointer;
-    animation: fade-in 1s;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 7px;
+  transition: all 0.2s;
+  cursor: pointer;
+  animation: fade-in 1s;
 }
 
 .panel__img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .panel__btn {
-    width: 140px;
-    height: 140px;
-    border-radius: 7px;
-    background-color: #333e44;
-    cursor: pointer;
-    transition: all 0.2s;
-    animation: fade-in 1s 0.5s backwards;
+  width: 140px;
+  height: 140px;
+  border-radius: 7px;
+  background-color: #333e44;
+  cursor: pointer;
+  transition: all 0.2s;
+  animation: fade-in 1s 0.5s backwards;
 }
 
 .panel__btn:hover,
@@ -273,4 +305,167 @@ button {
 .main {
   background-color: #edf1f3;
   flex: 1;
+}
+
+.info-bar {
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #d6dde1;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.breadcrumbs {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+
+.breadcrumbs__link {
+  color: #a6adb1;
+  text-decoration: none;
+}
+
+.breadcrumbs__icon {
+  color: #a6adb1;
+  margin: 0 13px;
+}
+
+.breadcrumbs__name {
+  color: #2e3335;
+}
+
+.button {
+  background-color: #375bb6;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 500px;
+  transition: all 0.4s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #26438d;
+}
+
+/* ---------------------------> artboard <------------------------------ */
+
+.artboard {
+  height: calc(100vh - 50px - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  gap: 16px;
+}
+
+.canvas {
+  height: 57.5vh;
+  width: 48.5vw;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.canvas__bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+}
+
+.canvas__fg-img {
+  height: 75%;
+  width: 78%;
+  object-fit: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  cursor: grab;
+  animation: make-smaller 1s 0.2s backwards;
+}
+
+.canvas__circule {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  animation: fade-in 1s 1s backwards;
+}
+
+.canvas__circule:nth-of-type(1) {
+  top: 11.5%;
+  left: 10.4%;
+  cursor: nw-resize;
+}
+.canvas__circule:nth-of-type(2) {
+  top: 11.5%;
+  right: 10.4%;
+  cursor: sw-resize;
+}
+.canvas__circule:nth-of-type(3) {
+  bottom: 11.5%;
+  left: 10.4%;
+  cursor: ne-resize;
+}
+.canvas__circule:nth-of-type(4) {
+  bottom: 11.5%;
+  right: 10.4%;
+  cursor: nw-resize;
+}
+
+.tools {
+  height: 57.5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  animation: fade-in-from-right 0.5s;
+}
+
+.tool {
+  background-color: #e1e6e9;
+  height: 44px;
+  width: 44px;
+  border-radius: 8px;
+  color: #404446;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.tool--active {
+  background-color: #2b363b;
+  color: #fff;
+}
+
+.tool:last-child {
+  margin-top: auto;
+  transition: all 0.5s;
+}
+
+.tool:last-child:hover,
+.tool:last-child:focus {
+  background-color: rgb(241, 44, 44);
+  color: #fff;
+}
+
+.tool:hover,
+.tool:focus {
+  background-color: #2b363b;
+  color: #fff;
+}
+
+.tool__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
