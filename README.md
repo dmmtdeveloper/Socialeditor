@@ -1,13 +1,8 @@
 # SocialEditor
-
-<div>
-    <h6>01</h6>
-    <small>
-        Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
-    </small>
-</div>
-
-<h3>02</h3>Evita cientos de errores de principiante para que las personas que tienen que interactuar con tu código lo tengan fácil
+En esta pequeña practica aprendi:
+- Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
+- Evita cientos de errores de principiante para que las personas que tienen que interactuar con tu código lo tengan fácil
+- Implementar diseño web responsivo (RWD) para dispositivos móviles, tabletas, computadoras portátiles y de escritorio con consultas de medios (@media)
 
 <a href= "https://www.linkedin.com/in/dmmtapia/">
 <svg  
