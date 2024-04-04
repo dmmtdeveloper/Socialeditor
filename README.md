@@ -1,5 +1,9 @@
-# 👋 SocialEditor
-Editor de fotos, practica donde perfecciono el diseño UI, utilizando HTML Y CSS puro.
+# SocialEditor
+01
+Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
+
+02
+Evita cientos de errores de principiante para que las personas que tienen que interactuar con tu código lo tengan fácil
 
 <a href= "https://www.linkedin.com/in/dmmtapia/">
 <svg  
