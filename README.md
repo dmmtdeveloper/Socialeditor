@@ -1,5 +1,12 @@
 # SocialEditor
-<h3>01</h3>Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
+
+<div>
+    <h6>01</h6>
+    <small>
+        Cómo codificar CSS en 2024 creando proyectos realistas desde cero y viendo cómo encaja todo
+    </small>
+</div>
+
 <h3>02</h3>Evita cientos de errores de principiante para que las personas que tienen que interactuar con tu código lo tengan fácil
 
 <a href= "https://www.linkedin.com/in/dmmtapia/">
@@ -17,8 +24,8 @@ class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path s
 
 ## </a>
 
+### 🧰 Lenguajes
 
-### 🧰 Lenguajes 
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <br />
